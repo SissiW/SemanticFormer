@@ -16,42 +16,40 @@ spatial and semantic features simultaneously for HSIs. Experiments on two widely
 the effectiveness of our SemanticFormer and HSI classification network method.
 
 ## Architecture
-![overview](https://github.com/SissiW/QSFormer/blob/main/overview.png)
+![overview](https://github.com/SissiW/SemanticFormer/blob/main/overview.png)
 
-## Results on MiniImageNet and TieredImageNet
-More experimental results can be found in the paper.
-![results](https://github.com/SissiW/QSFormer/blob/main/mini_tiered_result.png?raw=true)
+## Results on Indian Pines, Salinas and Houston datasets
+More analysis results can be found in the paper.
+[Indian_Pines_dataset](https://github.com/SissiW/SemanticFormer/blob/main/indian_pines_table.png)
+[Salinas_dataset](https://github.com/SissiW/SemanticFormer/blob/main/salinas_table.png)
+[Houston_dataset](https://github.com/SissiW/SemanticFormer/blob/main/houston_table.png)
 
 ## Datasets
-We perform the abundant experiments on four
-publicly popular datasets for few-shot classification task,
-such as miniImageNet, tieredImageNet, Fewshot-CIFAR100 and Caltech-UCSD Birds-200-2011.
-These datasets can be downloaded to click Baidu Drive ([miniImageNet](https://pan.baidu.com/s/1yTn78HgbkrRh_3EClax5FA) (password: rqcs), [tieredImageNet](https://pan.baidu.com/s/1Z9ZsYkwAY11Z_Glzu4tChQ) (password: k5z6), [FC100](https://pan.baidu.com/s/1atEdnikzs8zfKXuO4xr1rQ) (password: 3cib), [CUB](https://pan.baidu.com/s/1defYYyFQL5ZV1Dzug5paHQ) (password: qkpc))
+We perform the abundant experiments on three
+publicly popular datasets for hyperspectral image classification. These datasets can be downloaded to click Baidu Drive ([India_Pines](https://pan.baidu.com/s/1ykVdu_E-0Ohdsz-NrMaiUA) (password: jt71), [Salinas](https://pan.baidu.com/s/1Zkb58yI2DkJroqFMfyFfVQ) (password: 30ai), [Houston](https://pan.baidu.com/s/10PIrC1bRREVsJSmqKdXC0Q) (password: 9wl9))
 
 ## Installation
-python3.7+, pytorch>=1.7, qpth, CVXPY, OpenCV-python, tensorboard
-
-## Download Pre-trained Models
-[Baidu Drive](https://pan.baidu.com/s/1UWnpjNaaCTSUB2sOtJqZng)
-提取码：yd8w
+python3.6+, pytorch>=1.5
 
 ## Config
 ```
-sh train_meta_QSFormer.sh
+python Main.py
 ```
 
 
 ## Citation
 If you find this project useful, please feel free to leave a star and cite our paper:
 ```
-@article{wang2023few,
-  title={Few-Shot Learning Meets Transformer: Unified Query-Support Transformers for Few-Shot Classification},
-  author={Wang, Xixi and Wang, Xiao and Jiang, Bo and Luo, Bin},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology},
-  year={2023},
-  publisher={IEEE}
+@article{LIU20241,
+  title = {SemanticFormer: Hyperspectral image classification via semantic transformer},
+  journal = {Pattern Recognition Letters},
+  volume = {179},
+  pages = {1-8},
+  year = {2024},
+  issn = {0167-8655},
+  author = {Yan Liu and Xixi Wang and Bo Jiang and Lan Chen and Bin Luo}
 }
 ```
 
 ## Acknowledgements
-This project is built upon [DeepEMD](https://github.com/icoz69/DeepEMD). We also reference some code from [DETR](https://github.com/facebookresearch/detr). Thanks to the contributors of these great codebases.
+Our code is based on [CEGCN](https://github.com/qichaoliu/CNN_Enhanced_GCN). Thanks for their excellent work!
