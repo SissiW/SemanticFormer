@@ -21,11 +21,11 @@ the effectiveness of our SemanticFormer and HSI classification network method.
 ## Results on Indian Pines, Salinas and Houston datasets
 More analysis results can be found in the paper.
 
-[Indian_Pines_dataset](https://github.com/SissiW/SemanticFormer/blob/main/indian_pines_table.png)
+![Indian_Pines_dataset](https://github.com/SissiW/SemanticFormer/blob/main/indian_pines_table.png)
 
-[Salinas_dataset](https://github.com/SissiW/SemanticFormer/blob/main/salinas_table.png)
+![Salinas_dataset](https://github.com/SissiW/SemanticFormer/blob/main/salinas_table.png)
 
-[Houston_dataset](https://github.com/SissiW/SemanticFormer/blob/main/houston_table.png)
+![Houston_dataset](https://github.com/SissiW/SemanticFormer/blob/main/houston_table.png)
 
 ## Datasets
 We perform the abundant experiments on three
