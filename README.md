@@ -27,9 +27,6 @@ More analysis results can be found in the paper.
 
 ![Houston_dataset](https://github.com/SissiW/SemanticFormer/blob/main/houston_table.png)
 
-## Datasets
-We perform the abundant experiments on three
-publicly popular datasets for hyperspectral image classification. These datasets can be downloaded to click Baidu Drive ([India_Pines](https://pan.baidu.com/s/1ykVdu_E-0Ohdsz-NrMaiUA) (password: jt71), [Salinas](https://pan.baidu.com/s/1Zkb58yI2DkJroqFMfyFfVQ) (password: 30ai), [Houston](https://pan.baidu.com/s/10PIrC1bRREVsJSmqKdXC0Q) (password: 9wl9))
 
 ## Installation
 python3.8, pytorch1.6, spectral==0.23.1, scipy, numpy, matplotlib, sklearn
